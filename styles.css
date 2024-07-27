@@ -3,8 +3,33 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
+    cursor: none;
+    /* Hide the default cursor */
 }
 
+
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    /* Make sure it's a circle */
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999;
+    /* So that it stays on top of all other elements */
+    display: none;
+    /* Initially hide the custom cursor */
+}
+
+button,
+ul,
+li,
+a:hover {
+    cursor: none;
+}
 
 /* navbar */
 .navbar {
@@ -51,6 +76,9 @@ li img {
 }
 
 .navbar a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: #fff;
     text-decoration: none;
 }
@@ -76,7 +104,7 @@ main {
     color: #fff;
 }
 
-#home a{
+#home a {
     width: 30%;
 }
 
@@ -84,8 +112,9 @@ main {
     font-family: 'Playwrite PE';
     margin-top: 2rem;
     width: 100%;
-    height: 4rem;
-    border-radius: 1rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    border-radius: 1.2rem;
     background-image:
         linear-gradient(to right, #e55d5d 0%, #5f61e4 51%, #e55dd7 100%);
     transition: 0.5s;
@@ -137,10 +166,32 @@ main {
 }
 
 footer {
+    margin-left: 13rem;
+}
+
+.social {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    box-shadow: 0px -21px 15px -16px rgba(0, 0, 0, 0.17) inset,
+        0px -36px 30px 0px rgba(0, 0, 0, 0.15) inset,
+        0px -79px 40px 0px rgba(0, 0, 0, 0.1) inset,
+        0px 2px 1px 0px rgba(0, 0, 0, 0.06),
+        0px 4px 2px 0px rgba(0, 0, 0, 0.09),
+        0px 8px 4px 0px rgba(0, 0, 0, 0.09),
+        0px 16px 8px 0px rgba(0, 0, 0, 0.09);
+}
+
+.social a img {
+    width: 3rem;
+}
+
+.footer {
+    text-align: center;
     align-items: center;
     color: #fff;
+    background-color: #000000;
     text-align: center;
     padding: 1rem 0;
+    margin: 0;
 }
