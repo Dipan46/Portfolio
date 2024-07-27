@@ -81,17 +81,18 @@ main {
 }
 
 .resume {
+    font-family: 'Playwrite PE';
     margin-top: 2rem;
     width: 100%;
     height: 4rem;
     border-radius: 1rem;
     background-image:
         linear-gradient(to right, #e55d5d 0%, #5f61e4 51%, #e55dd7 100%);
-    text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
     display: block;
+    font-size: 1.3rem;
 }
 
 .resume:hover {
