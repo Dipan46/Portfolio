@@ -1,26 +1,20 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000000;
-}
-
-body {
     font-family: Open Sans, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
 }
 
+
+/* navbar */
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
-    width: 10rem;
+    width: 11rem;
     height: 100vh;
     background-color: #000000;
     padding: 1em;
-    display: flex;
-    flex-direction: column;
 }
 
 .navImg {
@@ -44,6 +38,7 @@ body {
     height: 9rem;
 }
 
+/* navbar image */
 li img {
     width: 4rem;
     margin-bottom: 0.5rem;
@@ -56,13 +51,16 @@ li img {
 
 main {
     margin-left: 13rem;
-    padding: 2em;
 }
 
+
+/* cover */
 #home {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    height: 100vh;
+    background-color: #000000;
 }
 
 .intro {
@@ -94,8 +92,15 @@ main {
     line-height: 2rem;
 }
 
+/* cover image */
 .mainImg {
     width: 100%;
+}
+
+/* about */
+
+#about{
+    color: white;
 }
 
 footer {
