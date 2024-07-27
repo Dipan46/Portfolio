@@ -38,6 +38,12 @@ body {
     height: 9rem;
 }
 
+.navbar li:hover {
+    border-radius: 1.5rem;
+    box-shadow:
+        0px 0px 255px -11px rgba(111, 111, 111, 1) inset;
+}
+
 /* navbar image */
 li img {
     width: 4rem;
@@ -64,7 +70,33 @@ main {
 }
 
 .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: #fff;
+}
+
+#home a{
+    width: 30%;
+}
+
+.resume {
+    margin-top: 2rem;
+    width: 100%;
+    height: 4rem;
+    border-radius: 1rem;
+    background-image:
+        linear-gradient(to right, #e55d5d 0%, #5f61e4 51%, #e55dd7 100%);
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    display: block;
+}
+
+.resume:hover {
+    scale: 1.05;
+    background-position: right center;
 }
 
 .intro h1 {
@@ -99,8 +131,9 @@ main {
 
 /* about */
 
-#about{
-    color: white;
+#about {
+    padding: 2rem 1rem;
+    /* color: white; */
 }
 
 footer {
