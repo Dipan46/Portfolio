@@ -106,6 +106,7 @@ main {
 
 #home a {
     width: 30%;
+    text-decoration: none;
 }
 
 .resume {
