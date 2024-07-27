@@ -36,7 +36,7 @@ a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    width: 11rem;
+    width: 7rem;
     height: 100vh;
     background-color: #000000;
     padding: 1em;
@@ -60,7 +60,7 @@ a:hover {
     justify-content: center;
     list-style: none;
     width: 100%;
-    height: 9rem;
+    height: 7rem;
 }
 
 .navbar li:hover {
@@ -84,7 +84,7 @@ li img {
 }
 
 main {
-    margin-left: 13rem;
+    margin-left: 9rem;
 }
 
 
@@ -140,7 +140,7 @@ main {
 }
 
 .name {
-    font-size: 7rem;
+    font-size: 6rem;
     font-family: "Playwrite PE", cursive;
     background:
         linear-gradient(to right, #ff1e1e, #4352ff);
@@ -167,7 +167,7 @@ main {
 }
 
 footer {
-    margin-left: 13rem;
+    margin-left: 9rem;
 }
 
 .social {
