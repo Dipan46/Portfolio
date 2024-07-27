@@ -1,10 +1,14 @@
-body {
+* {
     font-family: Open Sans, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
     margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    cursor: none;
+        padding: 0;
+    background-color: #000000;
     /* Hide the default cursor */
+    cursor: none;
 }
 
 
@@ -38,7 +42,7 @@ a:hover {
     left: 0;
     width: 7rem;
     height: 100vh;
-    background-color: #000000;
+    background-color: #101010;
     padding: 1em;
 }
 
@@ -162,9 +166,23 @@ main {
 /* about */
 
 #about {
-    padding: 2rem 1rem;
-    /* color: white; */
+    text-align: center;
+    padding: 2rem 12rem;
+    color: #dde2f1;
 }
+
+#about h2 {
+    color: #a871ff;
+}
+
+#about hr {
+    width: 25%;
+}
+
+#about p {
+    color: rgb(201 201 201);
+}
+
 
 footer {
     margin-left: 9rem;
@@ -174,17 +192,10 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem 0;
-    box-shadow: 0px -21px 15px -16px rgba(0, 0, 0, 0.17) inset,
-        0px -36px 30px 0px rgba(0, 0, 0, 0.15) inset,
-        0px -79px 40px 0px rgba(0, 0, 0, 0.1) inset,
-        0px 2px 1px 0px rgba(0, 0, 0, 0.06),
-        0px 4px 2px 0px rgba(0, 0, 0, 0.09),
-        0px 8px 4px 0px rgba(0, 0, 0, 0.09),
-        0px 16px 8px 0px rgba(0, 0, 0, 0.09);
 }
 
 .social a img {
-    width: 3rem;
+    width: 2.5rem;
 }
 
 .footer {
