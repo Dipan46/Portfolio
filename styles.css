@@ -189,7 +189,6 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    text-decoration: non;
 }
 
 .card {
@@ -249,7 +248,7 @@ footer {
 }
 
 /* tablet */
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1300px) {
     .proCard {
         display: grid;
         grid-template-columns: auto auto;
@@ -291,6 +290,11 @@ footer {
         padding: 2rem 0rem;
     }
 
+    #about p {
+        text-align: justify;
+        padding-right: 2rem;
+    }
+
     .proCard {
         display: grid;
         grid-template-columns: auto;
@@ -303,5 +307,60 @@ footer {
     .social a img {
         margin: 0 1rem;
         width: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        background-color: #101010;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navImg {
+        width: 0;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .navbar li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        width: auto;
+        height: auto;
+        margin: 0 1rem;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    #about p {
+        padding: 0 2rem;
+    }
+
+    #projects {
+        padding: 0 2rem;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    footer {
+        margin-left: 0;
     }
 }
