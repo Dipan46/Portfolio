@@ -50,6 +50,22 @@ a:hover {
     width: 100%;
 }
 
+.navIcoH {
+    width: 2.6rem;
+}
+
+.navIcoA {
+    width: 3.1rem
+}
+
+.navIcoP {
+    width: 3rem
+}
+
+.navIcoC {
+    width: 2.2rem
+}
+
 .navbar ul {
     display: flex;
     flex-direction: column;
@@ -327,6 +343,22 @@ footer {
         width: 0;
     }
 
+    .navIcoH {
+        width: 1.6rem;
+    }
+
+    .navIcoA {
+        width: 2.1rem
+    }
+
+    .navIcoP {
+        width: 2rem
+    }
+
+    .navIcoC {
+        width: 1.5rem
+    }
+
     .navbar ul {
         display: flex;
         flex-direction: row;
@@ -342,6 +374,10 @@ footer {
         width: auto;
         height: auto;
         margin: 0 1rem;
+    }
+
+    .navbar li:hover {
+        box-shadow: none;
     }
 
     main {
