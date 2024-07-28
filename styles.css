@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-        padding: 0;
+    padding: 0;
     background-color: #000000;
     /* Hide the default cursor */
     cursor: none;
@@ -41,7 +41,7 @@ a:hover {
     top: 0;
     left: 0;
     width: 7rem;
-    height: 100vh;
+    height: 200vh;
     background-color: #101010;
     padding: 1em;
 }
@@ -183,6 +183,46 @@ main {
     color: rgb(201 201 201);
 }
 
+/* project */
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: non;
+}
+
+.card {
+    max-width: 70%;
+}
+
+#projects h2 {
+    color: #a871ff;
+    margin: 0.7rem;
+}
+
+#projects a {
+    text-decoration: none;
+}
+
+#projects hr {
+    width: 25%;
+    margin-bottom: 2rem;
+}
+
+#projects p {
+    color: rgb(201 201 201);
+}
+
+.proCard {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+
+.proImg {
+    max-width: 20rem;
+}
 
 footer {
     margin-left: 9rem;
@@ -206,4 +246,62 @@ footer {
     text-align: center;
     padding: 1rem 0;
     margin: 0;
+}
+
+/* tablet */
+@media screen and (max-width: 1700px) {
+    .proCard {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #about {
+        padding: 2rem 5rem;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 1000px) {
+    .navbar {
+        width: 4rem;
+    }
+
+    main {
+        margin-left: 8rem;
+    }
+
+    #home {
+        grid-template-columns: auto;
+    }
+
+    .grt {
+        font-size: 1rem;
+    }
+
+    .name {
+        font-size: 5rem;
+    }
+
+    .abt {
+        line-height: 0rem;
+        font-size: small;
+    }
+
+    #about {
+        padding: 2rem 0rem;
+    }
+
+    .proCard {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    footer {
+        margin-left: 9rem;
+    }
+
+    .social a img {
+        margin: 0 1rem;
+        width: 1.5rem;
+    }
 }
