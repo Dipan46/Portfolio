@@ -219,9 +219,9 @@ hr {
     padding: 1rem;
     margin: 1rem;
     border-radius: 2rem;
-    box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25),
-    0px 30px 60px -30px rgba(0, 0, 0, 0.3),
-    inset 0px -2px 6px 0px rgba(0, 52, 103, 0.35);
+    box-shadow: 0px 50px 100px -20px rgb(50 50 93 / 43%),
+        0px 30px 60px -30px rgb(9 8 42 / 47%),
+        inset 0px -2px 6px 0px rgb(0 52 103 / 40%)
 }
 
 .card:hover {
