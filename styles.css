@@ -275,6 +275,105 @@ hr {
 }
 
 
+#photo {
+    text-align: center;
+    padding: 2rem 30rem;
+    color: #dde2f1;
+}
+
+#photo h2 {
+    color: #a871ff;
+    margin: 0.7rem;
+}
+
+.masonry {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    grid-template-rows: masonry;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.item {
+    background-color: #ffffff;
+    /* padding: 1px; */
+    box-sizing: border-box;
+    box-shadow:
+        0px 50px 100px -20px rgb(50 50 93 / 43%),
+        0px 30px 60px -30px rgb(9 8 42 / 47%),
+        inset 0px -2px 6px 0px rgb(0 52 103 / 40%);
+    border-radius: 1rem;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.item:hover {
+    transform: translateY(-10px);
+}
+
+.item img {
+    width: 50vh;
+    border-radius: 1rem;
+}
+
+/* Specific dimensions and colors for each item */
+.item1 {
+    grid-row: span 1;
+    background-color: transparent;
+}
+
+.item2 {
+    grid-row: span 2;
+    background-color: transparent;
+}
+
+.item3 {
+    grid-row: span 1;
+    background-color: transparent;
+}
+
+.item4 {
+    grid-row: span 3;
+    background-color: transparent;
+}
+
+.item5 {
+    grid-row: span 3;
+    background-color: transparent;
+}
+
+.item6 {
+    grid-row: span 1;
+    background-color: transparent;
+}
+
+.item7 {
+    grid-row: span 20;
+    background-color: transparent;
+}
+
+.item8 {
+    grid-row: span 9;
+    background-color: transparent;
+}
+
+.item9 {
+    grid-row: span 15;
+    background-color: transparent;
+}
+
+.item10 {
+    grid-row: span 15;
+    background-color: transparent;
+}
+
+
+
 footer {
     margin-left: 9rem;
 }
@@ -307,11 +406,41 @@ footer {
     }
 
     #about {
-        padding: 2rem 5rem;
+        padding: 2rem 3rem;
+    }
+
+    #photo {
+        text-align: center;
+        padding: 2rem 20rem;
+        color: #dde2f1;
+    }
+
+    .masonry {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 /* mobile */
+
+@media screen and (max-width: 900px) {
+    #photo {
+        text-align: center;
+        padding: 2rem 10rem;
+        color: #dde2f1;
+    }
+
+    .masonry {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 553px) {
+    .item img {
+        width: 35vh;
+    }
+}
+
+
 @media screen and (max-width: 1000px) {
     .navbar {
         width: 4rem;
