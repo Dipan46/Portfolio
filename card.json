@@ -1,0 +1,51 @@
+[
+    {
+        "id": 0,
+        "link": "https://github.com/Dipan46/Text-Simplification-Using-T5-and-BART-Models.git",
+        "image": "./projects/TSM.png",
+        "title": "Text Simplification Model",
+        "description": "This project focuses on Text Simplification Using T5 and BART Models."
+    },
+    {
+        "id": 1,
+        "link": "https://dipan46.github.io/MotionCut_Internship_Project5/index.html",
+        "image": "./projects/ts.png",
+        "title": "Tiffin Service",
+        "description": "Enjoy home-cooked meals delivered to your doorstep."
+    },
+    {
+        "id": 2,
+        "link": "https://github.com/Dipan46/Spotify-Clone.git",
+        "image": "./projects/sc.png",
+        "title": "Spotify-Clone",
+        "description": " A website designed to replicate the functionality of Spotify."
+    },
+    {
+        "id": 3,
+        "link": "https://dipan46.github.io/Hungry-Healthy.in/",
+        "image": "./projects/hh.png",
+        "title": "Hungry-Healthy.in",
+        "description": " A food delivary website. Connects you withe the best home-made food and Restaurant near you"
+    },
+    {
+        "id": 4,
+        "link": "https://dipan46.github.io/Tin-Dog/",
+        "image": "./projects/tindog.png",
+        "title": "TinDog",
+        "description": "Tinder for Dogs"
+    },
+    {
+        "id": 5,
+        "link": "https://github.com/Dipan46/AdventureWork-Report",
+        "image": "./projects/AWR.png",
+        "title": "Adventure Work Report",
+        "description": "Finding sales snsights using PowerBI"
+    },
+    {
+        "id": 6,
+        "link": "https://github.com/Dipan46/Sales-Insights-Data-Analysis-Project",
+        "image": "./projects/salesdata.png",
+        "title": "Sales Insights Data Analysis Project",
+        "description": "Finding sales snsights using PowerBI"
+    }
+]
