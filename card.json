@@ -15,34 +15,48 @@
     },
     {
         "id": 2,
-        "link": "https://github.com/Dipan46/Spotify-Clone.git",
-        "image": "./projects/sc.png",
-        "title": "Spotify-Clone",
-        "description": " A website designed to replicate the functionality of Spotify."
+        "link": "https://github.com/Dipan46/far-away-app",
+        "image": "./projects/fa.png",
+        "title": "Far Away App",
+        "description": "A simple React app to manage a travel packing list. Add items with quantity, mark them as packed, delete them, or clear the list completely. Track your packing progress with real-time stats."
     },
     {
         "id": 3,
-        "link": "https://dipan46.github.io/Hungry-Healthy.in/",
-        "image": "./projects/hh.png",
-        "title": "Hungry-Healthy.in",
-        "description": " A food delivary website. Connects you withe the best home-made food and Restaurant near you"
+        "link": "https://github.com/Dipan46/Spotify-Clone.git",
+        "image": "./projects/sc.png",
+        "title": "Spotify-Clone",
+        "description": "A website designed to replicate the functionality of Spotify."
     },
     {
         "id": 4,
+        "link": "https://github.com/Dipan46/keeper-app",
+        "image": "./projects/kpr.png",
+        "title": "Keeper App",
+        "description": "A simple note-taking app built with React. Users can add and delete notes in a clean and minimal UI."
+    },
+    {
+        "id": 5,
+        "link": "https://dipan46.github.io/Hungry-Healthy.in/",
+        "image": "./projects/hh.png",
+        "title": "Hungry-Healthy.in",
+        "description": "A food delivary website. Connects you withe the best home-made food and Restaurant near you"
+    },
+    {
+        "id": 6,
         "link": "https://dipan46.github.io/Tin-Dog/",
         "image": "./projects/tindog.png",
         "title": "TinDog",
         "description": "Tinder for Dogs"
     },
     {
-        "id": 5,
+        "id": 7,
         "link": "https://github.com/Dipan46/AdventureWork-Report",
         "image": "./projects/AWR.png",
         "title": "Adventure Work Report",
         "description": "Finding sales snsights using PowerBI"
     },
     {
-        "id": 6,
+        "id": 8,
         "link": "https://github.com/Dipan46/Sales-Insights-Data-Analysis-Project",
         "image": "./projects/salesdata.png",
         "title": "Sales Insights Data Analysis Project",
