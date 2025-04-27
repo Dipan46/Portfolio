@@ -286,6 +286,10 @@ hr {
     margin: 0.7rem;
 }
 
+#photo hr {
+    width: 70%;
+}
+
 .masonry {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

@@ -1,24 +1,24 @@
 [
     {
         "id": 0,
-        "link": "https://github.com/Dipan46/Text-Simplification-Using-T5-and-BART-Models.git",
-        "image": "./projects/TSM.png",
-        "title": "Text Simplification Model",
-        "description": "This project focuses on Text Simplification Using T5 and BART Models."
-    },
-    {
-        "id": 1,
         "link": "https://dipan46.github.io/MotionCut_Internship_Project5/index.html",
         "image": "./projects/ts.png",
         "title": "Tiffin Service",
         "description": "Enjoy home-cooked meals delivered to your doorstep."
     },
     {
-        "id": 2,
-        "link": "https://github.com/Dipan46/far-away-app",
+        "id": 1,
+        "link": "https://dipan46.github.io/far-away-app/",
         "image": "./projects/fa.png",
         "title": "Far Away App",
         "description": "A simple React app to manage a travel packing list. Add items with quantity, mark them as packed, delete them, or clear the list completely. Track your packing progress with real-time stats."
+    },
+    {
+        "id": 2,
+        "link": "https://dipan46.github.io/texted/",
+        "image": "./projects/texted.png",
+        "title": "TextED",
+        "description": "A simple React application where users can type text and convert it to Uppercase or Lowercase etc with a button click!"
     },
     {
         "id": 3,
@@ -29,34 +29,48 @@
     },
     {
         "id": 4,
-        "link": "https://github.com/Dipan46/keeper-app",
-        "image": "./projects/kpr.png",
-        "title": "Keeper App",
-        "description": "A simple note-taking app built with React. Users can add and delete notes in a clean and minimal UI."
-    },
-    {
-        "id": 5,
         "link": "https://dipan46.github.io/Hungry-Healthy.in/",
         "image": "./projects/hh.png",
         "title": "Hungry-Healthy.in",
         "description": "A food delivary website. Connects you withe the best home-made food and Restaurant near you"
     },
     {
+        "id": 5,
+        "link": "https://dipan46.github.io/eat-n-split-app/",
+        "image": "./projects/ens.png",
+        "title": "Eat & Split",
+        "description": "A simple and fun React app to split bills with friends! Add friends, track who owes who, and easily manage shared expenses."
+    },
+    {
         "id": 6,
-        "link": "https://dipan46.github.io/Tin-Dog/",
-        "image": "./projects/tindog.png",
-        "title": "TinDog",
-        "description": "Tinder for Dogs"
+        "link": "https://dipan46.github.io/todo-app/",
+        "image": "./projects/todo.png",
+        "title": "To-Do List App",
+        "description": "A simple and responsive To-Do List web application built with React. You can add tasks, mark them as complete, and delete them."
     },
     {
         "id": 7,
+        "link": "https://dipan46.github.io/keeper-app/",
+        "image": "./projects/kpr.png",
+        "title": "Keeper App",
+        "description": "A simple note-taking app built with React. Users can add and delete notes in a clean and minimal UI."
+    },
+    {
+        "id": 8,
+        "link": "https://github.com/Dipan46/Text-Simplification-Using-T5-and-BART-Models.git",
+        "image": "./projects/TSM.png",
+        "title": "Text Simplification Model",
+        "description": "This project focuses on Text Simplification Using T5 and BART Models."
+    },
+    {
+        "id": 9,
         "link": "https://github.com/Dipan46/AdventureWork-Report",
         "image": "./projects/AWR.png",
         "title": "Adventure Work Report",
         "description": "Finding sales snsights using PowerBI"
     },
     {
-        "id": 8,
+        "id": 10,
         "link": "https://github.com/Dipan46/Sales-Insights-Data-Analysis-Project",
         "image": "./projects/salesdata.png",
         "title": "Sales Insights Data Analysis Project",
